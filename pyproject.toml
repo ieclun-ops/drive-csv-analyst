@@ -1,0 +1,10 @@
+[project]
+name = "csv-analyst-agent"
+version = "0.1.0"
+description = "Conversational data analyst agent for CSV files in Google Drive (Mistral Agents SDK)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-agents>=1.1.3",
+    "pandas>=3.1.1",
+]
